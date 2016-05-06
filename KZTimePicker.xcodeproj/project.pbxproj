@@ -14,6 +14,7 @@
 		291D4A5E1CDC7BB3004CD970 /* KZTimePicker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 291D4A5C1CDC7BB3004CD970 /* KZTimePicker.xcdatamodeld */; };
 		291D4A601CDC7BB3004CD970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 291D4A5F1CDC7BB3004CD970 /* Assets.xcassets */; };
 		291D4A631CDC7BB3004CD970 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 291D4A611CDC7BB3004CD970 /* LaunchScreen.storyboard */; };
+		291D4A6C1CDC7C16004CD970 /* KTimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 291D4A6A1CDC7C16004CD970 /* KTimePickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		291D4A5F1CDC7BB3004CD970 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		291D4A621CDC7BB3004CD970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		291D4A641CDC7BB3004CD970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		291D4A6A1CDC7C16004CD970 /* KTimePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTimePickerView.m; sourceTree = "<group>"; };
+		291D4A6B1CDC7C16004CD970 /* KTimePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTimePickerView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				291D4A541CDC7BB3004CD970 /* AppDelegate.m */,
 				291D4A561CDC7BB3004CD970 /* ViewController.h */,
 				291D4A571CDC7BB3004CD970 /* ViewController.m */,
+				291D4A6B1CDC7C16004CD970 /* KTimePickerView.h */,
+				291D4A6A1CDC7C16004CD970 /* KTimePickerView.m */,
 				291D4A591CDC7BB3004CD970 /* Main.storyboard */,
 				291D4A5F1CDC7BB3004CD970 /* Assets.xcassets */,
 				291D4A611CDC7BB3004CD970 /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				291D4A581CDC7BB3004CD970 /* ViewController.m in Sources */,
+				291D4A6C1CDC7C16004CD970 /* KTimePickerView.m in Sources */,
 				291D4A551CDC7BB3004CD970 /* AppDelegate.m in Sources */,
 				291D4A521CDC7BB3004CD970 /* main.m in Sources */,
 				291D4A5E1CDC7BB3004CD970 /* KZTimePicker.xcdatamodeld in Sources */,
